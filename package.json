@@ -1,0 +1,21 @@
+{
+  "name": "aldrich-sy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.8",
+    "tailwindcss": "^3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/assets/dev/global.css -o ./src/assets/css/global.css --watch",
+    "start": "npx tailwindcss -i ./src/assets/dev/global.css -o ./src/assets/css/global.css --watch",
+    "build": "npx tailwindcss ./src/assets/dev/global.css -o ./src/assets/css/global.css --minify"
+  },
+  "author": "",
+  "license": "ISC"
+}
